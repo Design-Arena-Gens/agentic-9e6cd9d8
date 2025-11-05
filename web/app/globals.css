@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-gradient: radial-gradient(1200px 400px at 50% -100px, rgba(212, 175, 55, 0.15), transparent),
+    linear-gradient(180deg, rgba(15, 76, 129, 0.08), rgba(15, 76, 129, 0.02));
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg-gradient), #ffffff;
+  color: #0a1a2b;
+}
+
+.gold-text {
+  color: #D4AF37;
+  text-shadow: 0 2px 20px rgba(212, 175, 55, 0.35);
+}
+
+.glow {
+  box-shadow: 0 0 80px rgba(15, 76, 129, 0.2);
+}
